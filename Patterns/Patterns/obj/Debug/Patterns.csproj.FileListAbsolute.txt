@@ -1,0 +1,6 @@
+c:\users\administrator\documents\visual studio 2017\Projects\Patterns\Patterns\obj\Debug\Patterns.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2017\Projects\Patterns\Patterns\bin\Debug\Patterns.exe.config
+c:\users\administrator\documents\visual studio 2017\Projects\Patterns\Patterns\bin\Debug\Patterns.exe
+c:\users\administrator\documents\visual studio 2017\Projects\Patterns\Patterns\bin\Debug\Patterns.pdb
+c:\users\administrator\documents\visual studio 2017\Projects\Patterns\Patterns\obj\Debug\Patterns.exe
+c:\users\administrator\documents\visual studio 2017\Projects\Patterns\Patterns\obj\Debug\Patterns.pdb
