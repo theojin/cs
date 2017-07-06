@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DollarCalculatorXamarin"
+             x:Class="DollarCalculatorXamarin.MainPage">
+
+    <StackLayout Padding="12" Spacing="4">
+        <Grid>
+            <Label Text="Dollar" WidthRequest="150" />
+            <Entry x:Name="DollarEntry" HorizontalOptions="Fill" Margin="150,0,0,0" Keyboard="Numeric" />
+        </Grid>
+        <Grid>
+            <Label Text="Currency" WidthRequest="150" />
+            <Entry x:Name="ExchangeRateEntry" HorizontalOptions="Fill" Margin="150,0,0,0" Keyboard="Numeric" />
+        </Grid>
+        <Button x:Name="CalculateButton" Text="Calculate" Clicked="CalculateButton_Clicked" />
+        <Label x:Name="ResultLabel" Text="No results" />
+    </StackLayout>
+
+</ContentPage>

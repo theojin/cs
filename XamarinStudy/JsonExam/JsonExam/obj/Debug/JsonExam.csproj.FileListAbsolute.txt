@@ -1,0 +1,16 @@
+c:\users\user\documents\visual studio 2017\Projects\JsonExam\JsonExam\bin\Debug\JsonExam.exe.config
+c:\users\user\documents\visual studio 2017\Projects\JsonExam\JsonExam\bin\Debug\JsonExam.exe
+c:\users\user\documents\visual studio 2017\Projects\JsonExam\JsonExam\bin\Debug\JsonExam.pdb
+c:\users\user\documents\visual studio 2017\Projects\JsonExam\JsonExam\bin\Debug\Newtonsoft.Json.dll
+c:\users\user\documents\visual studio 2017\Projects\JsonExam\JsonExam\bin\Debug\Newtonsoft.Json.xml
+c:\users\user\documents\visual studio 2017\Projects\JsonExam\JsonExam\obj\Debug\JsonExam.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2017\Projects\JsonExam\JsonExam\obj\Debug\JsonExam.exe
+c:\users\user\documents\visual studio 2017\Projects\JsonExam\JsonExam\obj\Debug\JsonExam.pdb
+C:\Xamarin\JsonExam\JsonExam\bin\Debug\JsonExam.exe.config
+C:\Xamarin\JsonExam\JsonExam\bin\Debug\JsonExam.exe
+C:\Xamarin\JsonExam\JsonExam\bin\Debug\JsonExam.pdb
+C:\Xamarin\JsonExam\JsonExam\bin\Debug\Newtonsoft.Json.dll
+C:\Xamarin\JsonExam\JsonExam\bin\Debug\Newtonsoft.Json.xml
+C:\Xamarin\JsonExam\JsonExam\obj\Debug\JsonExam.csprojResolveAssemblyReference.cache
+C:\Xamarin\JsonExam\JsonExam\obj\Debug\JsonExam.exe
+C:\Xamarin\JsonExam\JsonExam\obj\Debug\JsonExam.pdb

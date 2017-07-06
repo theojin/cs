@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Phone"
+             x:Class="Phone.MainPage">
+    <StackLayout>
+        <Entry x:Name="NumberEntry" Text="010-010-0110" />
+        <Button x:Name="CallButton" Text="Call" Clicked="CallButton_Clicked"/>
+    </StackLayout>
+</ContentPage>

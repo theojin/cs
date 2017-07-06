@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CalculatorXamarin"
+             x:Class="CalculatorXamarin.MainPage">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <OnPlatform.iOS>0,20,0,0</OnPlatform.iOS>
+        </OnPlatform>
+    </ContentPage.Padding>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <Color x:Key="OperatorColor">#FFA500</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid Padding="5,0" RowSpacing="1" ColumnSpacing="1" BackgroundColor="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Label x:Name="ResultLabel" TextColor="White" FontSize="48" FontAttributes="Bold" Grid.ColumnSpan="4" VerticalTextAlignment="Center" HorizontalTextAlignment="End" Text="0" />
+        
+        <!-- Number buttons -->
+        <Button Clicked="NumberButton_Clicked" Style="{StaticResource NumberButtonStyle}" Text="7" Grid.Row="1" />
+        <Button Clicked="NumberButton_Clicked" Style="{StaticResource NumberButtonStyle}" Text="8" Grid.Row="1" Grid.Column="1" />
+        <Button Clicked="NumberButton_Clicked" Style="{StaticResource NumberButtonStyle}" Text="9" Grid.Row="1" Grid.Column="2" />
+        <Button Clicked="NumberButton_Clicked" Style="{StaticResource NumberButtonStyle}" Text="4" Grid.Row="2" />
+        <Button Clicked="NumberButton_Clicked" Style="{StaticResource NumberButtonStyle}" Text="5" Grid.Row="2" Grid.Column="1" />
+        <Button Clicked="NumberButton_Clicked" Style="{StaticResource NumberButtonStyle}" Text="6" Grid.Row="2" Grid.Column="2" />
+        <Button Clicked="NumberButton_Clicked" Style="{StaticResource NumberButtonStyle}" Text="1" Grid.Row="3" />
+        <Button Clicked="NumberButton_Clicked" Style="{StaticResource NumberButtonStyle}" Text="2" Grid.Row="3" Grid.Column="1" />
+        <Button Clicked="NumberButton_Clicked" Style="{StaticResource NumberButtonStyle}" Text="3" Grid.Row="3" Grid.Column="2" />
+        <Button Clicked="NumberButton_Clicked" Style="{StaticResource NumberButtonStyle}" Text="0" Grid.Row="4" Grid.ColumnSpan="3" />
+
+        <!-- Operations -->
+        <Button Clicked="OperatorButton_Clicked" BackgroundColor="{x:Static local:SharedResource.OperationButtonColor}" TextColor="White" FontSize="32" Text="+" Grid.Row="1" Grid.Column="3" />
+        <Button Clicked="OperatorButton_Clicked" BackgroundColor="{DynamicResource OperatorColor}" TextColor="White" FontSize="32" Text="-" Grid.Row="2" Grid.Column="3" />
+        <Button Clicked="OperatorButton_Clicked" BackgroundColor="{DynamicResource OperatorColor}" TextColor="White" FontSize="32" Text="x" Grid.Row="3" Grid.Column="3" />
+        <Button Clicked="OperatorButton_Clicked" BackgroundColor="{DynamicResource OperatorColor}" TextColor="White" FontSize="32" Text="/" Grid.Row="4" Grid.Column="3" />
+
+        <!-- Others -->
+        <Button Clicked="ClearButton_Clicked" BackgroundColor="#808080" TextColor="White" FontSize="32" Text="C" Grid.Row="5" />
+        <Button Clicked="CalculateButton_Clicked" BackgroundColor="#FFA500" TextColor="White" FontSize="32" Text="=" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" />
+    </Grid>
+
+</ContentPage>
